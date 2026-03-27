@@ -1,0 +1,8 @@
+streamlit
+transformers
+torch
+gtts
+pytesseract
+pillow
+youtube-transcript-api
+PyMuPDF
