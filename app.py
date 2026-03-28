@@ -10,7 +10,7 @@ import fitz  # PyMuPDF
 st.title("🔥 AI Text Summarizer (All-in-One)")
 
 # Load model
-summarizer = pipeline("summarization")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 # OPTION SELECT
 option = st.selectbox("Choose Input Type", ["Text", "PDF", "Image", "YouTube"])
