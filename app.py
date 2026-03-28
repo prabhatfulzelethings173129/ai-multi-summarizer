@@ -10,7 +10,7 @@ import fitz  # PyMuPDF
 st.title("🔥 AI Text Summarizer (All-in-One)")
 
 # Load model
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 text = "Your long text here"
 
 # OPTION SELECT
