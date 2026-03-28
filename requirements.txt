@@ -1,8 +1,6 @@
 streamlit==1.32.0
 transformers==4.38.2
-torch==2.0.1
 gtts
-pytesseract
 pillow
 youtube-transcript-api
 pymupdf
