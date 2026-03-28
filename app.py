@@ -73,3 +73,6 @@ if st.button("Summarize"):
         tts = gTTS(summary_text)
         tts.save("summary.mp3")
         st.audio("summary.mp3")
+        git add .
+git commit -m "fixed torchvision error"
+git push
