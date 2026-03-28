@@ -11,6 +11,7 @@ st.title("🔥 AI Text Summarizer (All-in-One)")
 
 # Load model
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+text = "Your long text here"
 
 # OPTION SELECT
 option = st.selectbox("Choose Input Type", ["Text", "PDF", "Image", "YouTube"])
@@ -53,7 +54,7 @@ if st.button("Summarize"):
         st.warning("No text found!")
     else:
         input_text = input_text[:1000]  # fix error
-        summary = summarizer(input_text, max_length=100, min_length=30, do_sample=False)
+        summary = summarizer(input_text, max_length=130, min_length=30, do_sample=False)
         summary_text = summary[0]['summary_text']
 
         st.subheader("Summary:")
