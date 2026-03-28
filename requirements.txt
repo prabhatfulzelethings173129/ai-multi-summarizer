@@ -1,9 +1,9 @@
 streamlit==1.32.0
-transformers==4.38.2
+transformers==4.37.2
 gtts
 pillow
 youtube-transcript-api
 pymupdf
 sentencepiece
-torch=2.0.1
+torch=2.1.2
 torchvision=0.15.2
