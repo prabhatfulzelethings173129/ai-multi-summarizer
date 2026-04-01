@@ -39,13 +39,13 @@ This project is a simple and efficient **Text Summarization Tool** built using P
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
+https://github.com/prabhatfulzelethings173129/ai-multi-summarizer/edit/main/README.md
 ```
 
 2. Navigate to the project folder:
 
 ```
-cd your-repo-name
+cd ai-multi-summarizer
 ```
 
 3. Install dependencies:
