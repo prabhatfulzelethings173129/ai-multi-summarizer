@@ -91,8 +91,8 @@ streamlit run app.py
 
 If you liked this project or have suggestions, feel free to connect!
 
-* LinkedIn: *[Add your LinkedIn link]*
-* GitHub: *[Add your GitHub link]*
+* LinkedIn: https://www.linkedin.com/in/prabhat-fulzele-a1a2b737b 
+* GitHub: https://github.com/prabhatfulzelethings173129
 
 ---
 
