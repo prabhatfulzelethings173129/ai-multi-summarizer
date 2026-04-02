@@ -17,9 +17,6 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import fitz  # PyMuPDF
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r"import pytesseract
-
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 # Title
 st.title("🔥 AI Text Summarizer (All-in-One)")
 
